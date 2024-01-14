@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+    
+
+}
+.header-logo{
+    font-family: 'Nova Mono', monospace;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(248, 248, 248);
+    padding-left: 123px;
+}
+
+.navigation{
+    display: flex;
+    gap: 45px;
+    padding-right: 250px;
+    
+}
+.navigation a{
+    color: white;
+}
+
+    
+.First-Div-Mini{
+    display: flex;
+    
+    padding: 90px 90px 71px 200px ;
+    justify-content: space-between;
+   
+    align-items: center;
+    background-image: url(./Rectangle\ 396.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+}
+.First-Div-Mini img{
+    width: 500.71px;
+    height: 541px;
+    border-radius: 20px;
+}
+.First-Div-Text{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 313px;
+    border-radius: 18px;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.First-Div-Text p{
+    font-family: 'Nunito Sans';
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+
+}
+.First-Div-Text h3{
+    font-family: 'Nunito Sans';
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+
+
+}
+.First-Div-Text h3 span{
+    font-family: 'Nunito Sans';
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(81, 81, 81);
+
+
+}
+.Button{
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    background-color: #535353;
+    border-radius: 10px;
+    padding: 24px 54px 24px 56px;
+    max-width: 244px;
+    
+    
+  
+    
+    
+   
+    
+
+}
